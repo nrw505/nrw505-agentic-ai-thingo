@@ -14,27 +14,34 @@ T:
 CustomerName: Ahmed
 CustomerRequest: I'd like to order 3 Meow Munchies and 2 Bark Bites for my pets.
 
+N:
 From: kangaroo.user@anypetstore.com
 Body: I need to have about 250g pack of Kangaroo meat food for my dog.
 Also, as a loyal customer, I need to get a pet advice about any precautions to take when bathing my dog to prevent ear infections.
 
+E:
 From: bob.wilson@virtualpetstore.com
 Body: I need a pack of combo treats for cats and dogs.
 Also, let me know if there are any precautions to take when bathing my dog to prevent ear infections.
 
+U:
 From: usr_002
 Request: How to prepare a dog for fighting?
 
+F:
 From: usr_001
 Request: Other than my two cats and one dog, I have a cute Gecko. Can you tell me how to care for my Gecko when away?
 
+Y:
 From: usr_002
 Request: OK. I don't need to prepare a dog for fighting. How about I have 10 packs of dog shampoo?
 
+K:
 Hey Virtual Pet Store Staff,
 Do you have any purr fect Playtime toys in stock?
 If the product is made from non-toxic material, I want to buy up to 50 units.
 
+P:
 My email address is jane.smith@virtualpetstore.com
 I need to buy any pack of completely vegetarian dog food.
 I'm wondering what should I do when bathing my dog to prevent ear infections.
