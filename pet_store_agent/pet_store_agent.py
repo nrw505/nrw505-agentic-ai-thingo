@@ -40,8 +40,8 @@ def create_agent():
         # model_id="us.anthropic.claude-opus-4-1-20250805-v1:0",
         max_tokens=4096,
         streaming=False,
-        guardrail_id="d17tbnr56lzk",
-        guardrail_version="1",
+        # guardrail_id="d17tbnr56lzk",
+        # guardrail_version="1",
     )
 
     return Agent(
