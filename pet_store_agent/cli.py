@@ -5,14 +5,18 @@ import pet_store_agent
 
 def run_cli():
     "Run a CLI"
-    while True:
-        user_input = ""
-        line_input = input("> ")
-        while line_input:
-            user_input += line_input
+    try:
+        while True:
+            user_input = ""
             line_input = input("> ")
-        response = pet_store_agent.process_request(user_input)
-        print(f"Response:\n{response}")
+            while line_input:
+                user_input += line_input
+                line_input = input("> ")
+            if len(user_input) > 0:
+                response = pet_store_agent.process_request(user_input)
+                print(f"Response:\n{response}\n")
+    except EOFError:
+        print("\nExiting...")
 
 
 if __name__ == "__main__":

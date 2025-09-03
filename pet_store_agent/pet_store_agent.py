@@ -2,6 +2,7 @@ import os
 import logging
 from pathlib import Path
 from strands import Agent
+from strands_tools import calculator
 from strands.models import BedrockModel
 
 import retrieve_product_info
@@ -52,6 +53,7 @@ def create_agent():
             get_inventory,
             get_user_by_id,
             get_user_by_email,
+            # calculator,
         ],
     )
 
