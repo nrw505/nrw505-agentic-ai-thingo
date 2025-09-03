@@ -1,1 +1,4 @@
 .venv
+.envrc.secrets
+.envrc.override
+**/__pycache__

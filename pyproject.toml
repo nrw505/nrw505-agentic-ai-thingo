@@ -11,7 +11,9 @@ dependencies = [
     "boto3 (>=1.40.21,<2.0.0)",
     "tenacity (>=9.1.2,<10.0.0)",
     "strands-agents-tools (>=0.2.5,<0.3.0)",
-    "strands-agents-builder (>=0.1.8,<0.2.0)"
+    "strands-agents-builder (>=0.1.8,<0.2.0)",
+    "aws-opentelemetry-distro (>=0.12.0,<0.13.0)",
+    "bedrock-agentcore (>=0.1.2,<0.2.0)"
 ]
 
 [tool.poetry]
