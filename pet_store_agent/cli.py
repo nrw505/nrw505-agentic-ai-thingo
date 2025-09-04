@@ -15,7 +15,7 @@ def run_cli():
             if len(user_input) > 0:
                 response = pet_store_agent.process_request(user_input)
                 print(f"Response:\n{response}\n")
-    except EOFError:
+    except (EOFError, KeyboardInterrupt):
         print("\nExiting...")
 
 
